@@ -1,0 +1,13 @@
+ClassDec : A
+VarDec : b
+MethodDec : a
+Return
+MethodDec : c
+ArgumentDec : a
+ArgumentDec : arg
+Return
+Return
+VarDec : c
+ClassDec : Main
+Inheritance : Main < A
+VarDec : a

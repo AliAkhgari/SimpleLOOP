@@ -1,0 +1,5 @@
+Line 16: Set include method input is not an integer
+Line 22: Unsupported operand type for operator not
+Line 27: Variable h is not declared
+Line 28: Each variable j is not same type as range input
+Line 29: Unsupported operand type for operator add

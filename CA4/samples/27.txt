@@ -1,0 +1,12 @@
+--------------------------Compiling--------------------------
+Compilation Successful
+
+-------------------Generating Class Files-------------------
+Generated: Array.class
+Generated: Fib.class
+Generated: Fptr.class
+Generated: Global.class
+Generated: Main.class
+
+---------------------------Output---------------------------
+34

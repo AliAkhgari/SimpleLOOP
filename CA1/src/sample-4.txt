@@ -1,0 +1,9 @@
+ClassDec : Main
+Conditional : if
+INCLUDE
+Operator : +
+Operator : +
+NEW
+Operator : -
+Operator : +
+Operator : =

@@ -1,0 +1,21 @@
+Line 11: Access by index on a non-array
+Line 12: Access by index on a non-array
+Line 13: Access by index on a non-array
+Line 13: Access by index on a non-array
+Line 14: Unsupported operand type for operator assign
+Line 15: Access by index on a non-array
+Line 16: Access by index on a non-array
+Line 17: Access by index on a non-array
+Line 18: Array index is not an integer
+Line 18: Access by index on a non-array
+Line 19: Access by index on a non-array
+Line 19: Access by index on a non-array
+Line 20: Access by index on a non-array
+Line 20: Access by index on a non-array
+Line 26: Variable i is not declared
+Line 27: Set add method input is not an integer
+Line 27: Variable i is not declared
+Line 28: Variable i is not declared
+Line 29: Merge on non-Set
+Line 29: Variable i is not declared
+Line 30: Variable i is not declared

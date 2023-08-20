@@ -1,0 +1,5 @@
+Line 9: Condition must be bool
+Line 10: Return value does not match with method return type
+Line 23: Access by index on a non-array
+Line 24: Return value does not match with method return type
+Line 30: Cannot have empty array

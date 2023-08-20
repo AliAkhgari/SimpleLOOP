@@ -1,0 +1,12 @@
+class A {
+    private bool b; public int a () {
+            return 10
+    }; public int c (int a, bool arg=1) {
+            return 2
+            return 5
+        }
+    private int c
+}
+
+class Main < A 
+    private Set<int> a;
