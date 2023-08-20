@@ -1,0 +1,52 @@
+Line 2: Class XX is not declared
+Line 3: Method f needs return statement
+Line 4: Name of local variable x conflicts with a global variable’s name
+Line 7: Cannot have empty array
+Line 13: Condition must be bool
+Line 17: Left side of assignment must be a valid lvalue
+Line 18: Left side of assignment must be a valid lvalue
+Line 18: Unsupported operand type for operator assign
+Line 21: Cannot use return value of a method having void return type
+Line 22: There is no member named fuck in class Student
+Line 23: Access by index on a non-array
+Line 23: Variable a is not declared
+Line 24: Variable b is not declared
+Line 32: Variable h is not declared
+Line 34: Merge on non-Set
+Line 53: Variable a is not declared
+Line 54: Variable a is not declared
+Line 55: Variable a is not declared
+Line 65: Cannot use return value of a method having void return type
+Line 73: Return value does not match with method return type
+Line 77: Unsupported operand type for operator ternary
+Line 80: Redefinition of method fff
+Line 82: Args in method call do not match with definition
+Line 86: Method error8 should not have a return statement
+
+Line 88: Unsupported operand type for operator add
+Line 88: Calling a non-callable
+Line 89: Return value does not match with method return type
+Line 106: Name of local variable x conflicts with a global variable’s name
+Line 108: Access by index on a non-array
+Line 108: Access by index on a non-array
+Line 109: Access by index on a non-array
+Line 109: Access by index on a non-array
+Line 109: Array index is not an integer
+Line 109: Access by index on a non-array
+Line 110: Calling a non-callable
+Line 111: Array index is not an integer
+Line 111: Access by index on a non-array
+Line 113: Access on non-class
+Line 114: Access on non-class
+Line 118: Each variable id is not same type as range input
+Line 119: Return value does not match with method return type
+Line 120: Return value does not match with method return type
+Line 124: Constructor args do not match with definition of class Course
+Line 139: Classes cannot extend from Main class
+Line 142: Redefinition of method initialize
+Line 152: Cannot have empty array
+Line 156: Unsupported operand type for operator add
+Line 157: New on non-Set
+Line 158: Constructor args do not match with definition of class Student
+
+number of errors: 49

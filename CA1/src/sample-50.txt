@@ -1,0 +1,5 @@
+ClassDec : Main
+Operator : -
+Loop : each
+Loop : each
+Return

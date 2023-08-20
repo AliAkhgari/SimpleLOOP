@@ -1,0 +1,79 @@
+ClassDec : Main
+MethodDec : f1
+Built-in : print
+Conditional : if
+Return
+Conditional : elsif
+Return
+Conditional : else
+Return
+Conditional : if
+Built-in : print
+Conditional : if
+Return
+Conditional : elsif
+Return
+Conditional : else
+Return
+Conditional : if
+Return
+Conditional : else
+Return
+Loop : each
+Return
+Loop : each
+Return
+MethodCall
+Return
+Operator : =
+ADD
+MERGE
+Conditional : else
+Built-in : print
+Conditional : if
+Return
+Conditional : elsif
+Return
+Conditional : elsif
+Operator : !
+Return
+Conditional : if
+Return
+Conditional : else
+Return
+Loop : each
+Return
+Loop : each
+Return
+MethodCall
+Return
+Operator : =
+ADD
+MERGE
+Loop : each
+Return
+Loop : each
+Built-in : print
+Conditional : if
+Return
+Conditional : if
+Return
+Conditional : else
+Return
+Conditional : if
+Return
+Conditional : else
+Return
+Loop : each
+Return
+Loop : each
+Return
+MethodCall
+Return
+Operator : =
+ADD
+MERGE
+MethodCall
+Return
+Operator : =
+Operator : =

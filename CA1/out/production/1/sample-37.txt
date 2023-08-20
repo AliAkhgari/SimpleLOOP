@@ -1,0 +1,9 @@
+ClassDec : B
+Inheritance : B < A
+VarDec : x
+ClassDec : A
+Inheritance : A < B
+MethodDec : a
+Return
+MethodDec : main
+Return

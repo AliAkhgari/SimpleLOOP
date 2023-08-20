@@ -1,0 +1,43 @@
+VarDec : t1
+VarDec : t2
+ClassDec : S1
+VarDec : var1
+VarDec : var2
+MethodDec : id
+ArgumentDec : _id
+Operator : =
+Return
+MethodDec : f1
+ArgumentDec : arg1
+ArgumentDec : arg2
+ArgumentDec : arg1
+VarDec : ptr1
+Operator : =
+Return
+ClassDec : Main
+VarDec : s
+MethodDec : sample
+Conditional : if
+Operator : *
+Operator : /
+Operator : +
+Operator : ||
+Conditional : if
+Operator : &&
+Operator : !
+Return
+NEW
+Operator : *
+Operator : /
+Conditional : else
+Return
+Operator : -
+Operator : +
+Operator : -
+NEW
+Operator : =
+MethodCall
+Loop : each
+Operator : +
+Operator : -
+Operator : =

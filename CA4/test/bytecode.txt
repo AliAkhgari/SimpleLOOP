@@ -1,0 +1,111 @@
+Compiled from "main.java"
+class SimpleCalculator {
+  SimpleCalculator();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+    LineNumberTable:
+      line 2: 0
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+          0       5     0  this   LSimpleCalculator;
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: new           #7                  // class java/util/Scanner
+       3: dup
+       4: getstatic     #9                  // Field java/lang/System.in:Ljava/io/InputStream;
+       7: invokespecial #15                 // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+      10: astore_1
+      11: iconst_0
+      12: istore_2
+      13: getstatic     #18                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      16: ldc           #22                 // String Enter the operation(+, -):
+      18: invokevirtual #24                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      21: aload_1
+      22: invokevirtual #30                 // Method java/util/Scanner.nextLine:()Ljava/lang/String;
+      25: astore_3
+      26: getstatic     #18                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      29: ldc           #34                 // String Enter number1:
+      31: invokevirtual #24                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      34: aload_1
+      35: invokevirtual #36                 // Method java/util/Scanner.nextInt:()I
+      38: istore        4
+      40: getstatic     #18                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      43: ldc           #40                 // String Enter number2:
+      45: invokevirtual #24                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      48: aload_1
+      49: invokevirtual #36                 // Method java/util/Scanner.nextInt:()I
+      52: istore        5
+      54: aload_3
+      55: astore        6
+      57: iconst_m1
+      58: istore        7
+      60: aload         6
+      62: invokevirtual #42                 // Method java/lang/String.hashCode:()I
+      65: lookupswitch  { // 2
+                    43: 92
+                    45: 108
+               default: 121
+          }
+      92: aload         6
+      94: ldc           #47                 // String +
+      96: invokevirtual #49                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+      99: ifeq          121
+     102: iconst_0
+     103: istore        7
+     105: goto          121
+     108: aload         6
+     110: ldc           #53                 // String -
+     112: invokevirtual #49                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+     115: ifeq          121
+     118: iconst_1
+     119: istore        7
+     121: iload         7
+     123: lookupswitch  { // 2
+                     0: 148
+                     1: 157
+               default: 163
+          }
+     148: iload         4
+     150: iload         5
+     152: iadd
+     153: istore_2
+     154: goto          163
+     157: iload         4
+     159: iload         5
+     161: isub
+     162: istore_2
+     163: getstatic     #18                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     166: iload_2
+     167: invokedynamic #55,  0             // InvokeDynamic #0:makeConcatWithConstants:(I)Ljava/lang/String;
+     172: invokevirtual #24                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     175: aload_1
+     176: invokevirtual #59                 // Method java/util/Scanner.close:()V
+     179: return
+    LineNumberTable:
+      line 4: 0
+      line 5: 11
+      line 6: 13
+      line 7: 21
+      line 8: 26
+      line 9: 34
+      line 10: 40
+      line 11: 48
+      line 12: 54
+      line 14: 148
+      line 15: 154
+      line 17: 157
+      line 20: 163
+      line 21: 175
+      line 22: 179
+    LocalVariableTable:
+      Start  Length  Slot  Name   Signature
+          0     180     0  args   [Ljava/lang/String;
+         11     169     1 myObj   Ljava/util/Scanner;
+         13     167     2 result   I
+         26     154     3 operator   Ljava/lang/String;
+         40     140     4 operand1   I
+         54     126     5 operand2   I
+}

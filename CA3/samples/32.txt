@@ -1,0 +1,2 @@
+Line 14: Unsupported type for print
+Line 14: Cannot use return value of a method having void return type

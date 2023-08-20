@@ -1,0 +1,6 @@
+class Main
+    public initialize() {
+        (-12..24).each do |i2|
+            a21.each do |i1|
+                return 1;
+    }

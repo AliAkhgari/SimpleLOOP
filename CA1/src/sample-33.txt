@@ -1,0 +1,12 @@
+ClassDec : Main
+Conditional : if
+Operator : +
+Return
+Conditional : elsif
+Return
+Operator : -
+Conditional : elsif
+Return
+Conditional : else
+Return
+Return

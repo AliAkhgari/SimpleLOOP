@@ -1,0 +1,45 @@
+ClassDec : S3
+VarDec : s1
+VarDec : s2
+VarDec : s3
+VarDec : s4
+ClassDec : S2
+Inheritance : S2 < S3
+MethodDec : is_ok
+ArgumentDec : a1
+ArgumentDec : a2
+ArgumentDec : a3
+ArgumentDec : a4
+ArgumentDec : a5
+MethodCall
+Operator : =
+Operator : =
+Built-in : print
+Operator : -
+Operator : +
+Operator : *
+Operator : +
+Operator : &&
+Return
+MethodCall
+Return
+MethodDec : f2
+ArgumentDec : a6
+ArgumentDec : a7
+Conditional : if
+Operator : -
+Operator : >
+Return
+Built-in : print
+MethodCall
+Operator : +
+Return
+VarDec : a10
+VarDec : a11
+MethodDec : f3
+ArgumentDec : a9
+Conditional : if
+Operator : ==
+Return
+Conditional : else
+Return

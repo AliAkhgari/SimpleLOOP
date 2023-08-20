@@ -1,0 +1,58 @@
+VarDec : total_grade
+VarDec : total_cost
+ClassDec : Student
+VarDec : grade
+VarDec : cost
+ArgumentDec : grade
+ArgumentDec : cost
+Operator : =
+Operator : =
+NEW
+Operator : =
+Built-in : print
+VarDec : enrollments
+MethodDec : enroll
+ArgumentDec : cid
+ArgumentDec : cost
+ADD
+Operator : =
+Operator : ++
+ClassDec : Course
+VarDec : cid
+VarDec : cost
+MethodDec : set_cid
+ArgumentDec : _cid
+Operator : =
+Operator : ++
+MethodDec : get_cid
+Return
+MethodDec : set_cost
+ArgumentDec : cost
+Operator : +
+Operator : =
+MethodDec : get_cost
+Return
+ClassDec : Main
+VarDec : crs
+VarDec : i
+VarDec : crs2
+VarDec : students
+MethodCall
+MethodCall
+Loop : each
+MethodCall
+Conditional : if
+Operator : <
+Built-in : print
+Conditional : elsif
+Operator : ==
+Built-in : print
+Conditional : elsif
+Operator : >
+Built-in : print
+MethodCall
+Operator : ==
+Operator : <
+Operator : ?:
+Operator : ?:
+Built-in : print
