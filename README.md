@@ -1,6 +1,6 @@
 # SimpleLOOP
 
-In this project, our aim is to create an object-oriented programming (OOP) language named `SimpleLOOP`.
+In this project, the objective is to create a compiler for an object-oriented programming (OOP) language named `SimpleLOOP`.
 
 ## Phases of Development
 
